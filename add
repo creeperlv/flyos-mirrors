@@ -4,6 +4,6 @@ rm ./x86_64/flyos.db
 rm ./x86_64/flyos.files
 cp ./x86_64/flyos.db.tar.gz ./x86_64/flyos.db
 cp ./x86_64/flyos.files.tar.gz ./x86_64/flyos.files
-#git add -A
-#git commit -m "update $@"
-#git push
+git add -A
+git commit -m "update $@"
+git push
